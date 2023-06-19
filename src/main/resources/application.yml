@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: green
+    password: ''
+    url: jdbc:mysql://localhost:3306/green
+    username: root
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 91579171301-015altftd5jq3p80b4aj4piu7mvmirkf.apps.googleusercontent.com
+            client-secret: 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
+          google:
+            client-id: 633635081661116
+            client-secret: fe1b383a8c7a646c9a7681e6aa8e457c

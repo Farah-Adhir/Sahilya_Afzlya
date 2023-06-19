@@ -18,7 +18,8 @@ import com.oauth.implementation.dao.UserRepository;
 public class DashboardController {
 	@Autowired
 	UserRepository userRepo;
-	@GetMapping
+	//Sahil, Afzal, Farah
+		@GetMapping
     public String displayDashboard(Model model){
 		SecurityContext securityContext = SecurityContextHolder.getContext();
 		if(securityContext.getAuthentication().getPrincipal() instanceof DefaultOAuth2User) {
